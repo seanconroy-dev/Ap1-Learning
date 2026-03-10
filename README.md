@@ -13,3 +13,39 @@ Lernmaterialien und Ressourcen zur Vorbereitung auf die AP1-Prüfung (IT-Berufe)
 | [Qualitätssichernde Maßnahmen](./Qualitätssichernde%20Maßnahmen/) | Qualitätssicherung und -management |
 | [IT-Sicherheit und Datenschutz, Ergonomie](./IT-Sicherheit%20und%20Datenschutz,%20Ergonomie/) | IT-Sicherheit, Datenschutz und Ergonomie |
 | [Auftragsabschluss und Leistungenerbringen](./Auftragsabschluss%20und%20Leistungenerbringen/) | Auftragsabschluss und Leistungserbringung |
+
+
+
+##Frontmatter-Template
+---
+# Identity (stable; never change after publishing)
+id: ap1-0000
+slug: ""
+
+# Display
+title: ""
+
+# Classification / navigation (machine-side)
+module: ""          # must match one top-level folder name exactly
+topics: []          # e.g. ["Netzwerke", "OSI"]
+tags: []            # e.g. ["prüfungsrelevant", "definition"]
+
+# Flashcard payload
+card:
+  type: basic       # basic | multi | steps | definition |comparison
+  question: ""
+  answer: ""
+  examples: []      # optional; see example below
+
+# Lifecycle
+status: draft       # draft | published | deprecated
+created: "2026-03-10"
+updated: "2026-03-10"
+---
+
+<!-- Optional: extra explanation, diagrams, tables, links, etc.
+     Keep the "answer" concise; put longer context here if useful. -->
+
+
+## File-Name Convention:
+<module-folder>/ap1-001-<slug>.md
