@@ -24,7 +24,7 @@ card:
     - "USB Typ A → Standard-USB-Anschluss für Peripheriegeräte"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-12"
 updated: "2026-03-12"
 ---

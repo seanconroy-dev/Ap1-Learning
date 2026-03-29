@@ -19,7 +19,7 @@ card:
   examples: ["MeinWLAN", "Firma-Gastnetz"]
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-17"
 updated: "2026-03-17"
 ---

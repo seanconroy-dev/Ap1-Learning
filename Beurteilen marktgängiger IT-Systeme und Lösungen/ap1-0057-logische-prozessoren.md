@@ -21,7 +21,7 @@ card:
     - "Das Betriebssystem sieht logische Prozessoren als separate Verarbeitungseinheiten im Task-Manager."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---

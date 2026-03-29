@@ -22,7 +22,7 @@ card:
     - "Salesforce"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-12"
 updated: "2026-03-12"
 ---

@@ -25,7 +25,7 @@ card:
     - "VFD: einfache Offline-USV für PCs"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-12"
 updated: "2026-03-12"
 ---

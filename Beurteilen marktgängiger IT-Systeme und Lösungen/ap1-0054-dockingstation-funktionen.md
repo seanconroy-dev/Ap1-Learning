@@ -22,7 +22,7 @@ card:
     - "Zusätzliche USB-Ports für Maus, Tastatur oder externe Laufwerke"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---

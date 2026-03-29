@@ -34,7 +34,7 @@ card:
     - "Schicht 4: TCP sorgt für eine zuverlässige Datenübertragung zwischen Anwendungen."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-12"
 updated: "2026-03-12"
 ---

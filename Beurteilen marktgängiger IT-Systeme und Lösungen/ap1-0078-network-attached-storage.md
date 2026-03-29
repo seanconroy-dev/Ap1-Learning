@@ -22,7 +22,7 @@ card:
     - "Mehrere Benutzer greifen gleichzeitig über SMB oder NFS auf Dateien zu."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-14"
 updated: "2026-03-14"
 ---

@@ -22,7 +22,7 @@ card:
     - "VLANs können Broadcast-Domänen logisch voneinander trennen."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-14"
 updated: "2026-03-14"
 ---

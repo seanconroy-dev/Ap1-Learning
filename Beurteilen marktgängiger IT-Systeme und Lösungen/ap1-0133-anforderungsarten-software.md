@@ -19,7 +19,7 @@ card:
   examples: ["Geschäft: Umsatz steigern", "Benutzer: einfache Bedienung", "Funktional: Login-System", "Projekt: Zeit- und Budgetvorgaben"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

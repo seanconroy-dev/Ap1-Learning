@@ -19,7 +19,7 @@ card:
   examples: ["Rabatt und Skonto im Einkauf", "Gewinnaufschlag im Verkauf"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

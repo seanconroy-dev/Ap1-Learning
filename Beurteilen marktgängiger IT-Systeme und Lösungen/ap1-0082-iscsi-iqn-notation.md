@@ -22,7 +22,7 @@ card:
     - "iqn.2021-02.com.microsoft:kunden:name99"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-14"
 updated: "2026-03-16"
 ---

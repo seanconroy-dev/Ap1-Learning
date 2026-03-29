@@ -22,7 +22,7 @@ card:
     - "DisplayPort 1.3 / 1.4 → bis 8K"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---

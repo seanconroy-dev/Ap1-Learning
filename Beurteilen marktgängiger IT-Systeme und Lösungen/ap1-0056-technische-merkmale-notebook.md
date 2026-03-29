@@ -22,7 +22,7 @@ card:
     - "WLAN und Bluetooth für drahtlose Kommunikation"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---

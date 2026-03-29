@@ -21,7 +21,7 @@ card:
     - "Cinema 4K (4096 × 2160 Pixel) – Standard in der Filmproduktion"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---

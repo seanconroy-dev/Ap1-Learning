@@ -19,7 +19,7 @@ card:
   examples: ["230 V × 16 A = 3.680 W"]
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

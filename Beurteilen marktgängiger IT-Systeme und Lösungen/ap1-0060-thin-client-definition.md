@@ -21,7 +21,7 @@ card:
     - "Arbeitsplätze im Unternehmen, bei denen Anwendungen auf einem Terminalserver laufen"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---

@@ -21,7 +21,7 @@ card:
     - "Typ 2: Oracle VirtualBox, VMware Workstation"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-11"
 updated: "2026-03-11"
 ---
