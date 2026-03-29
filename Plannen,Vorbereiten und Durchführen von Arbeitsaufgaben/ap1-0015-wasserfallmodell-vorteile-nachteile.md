@@ -32,7 +32,7 @@ card:
     - "Ungeeignet: Projekte mit häufigen Änderungen oder unsicheren Anforderungen"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

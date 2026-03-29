@@ -26,7 +26,7 @@ card:
     - "Verzögert sich eine Aktivität auf dem kritischen Pfad, verschiebt sich der gesamte Projektabschluss."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

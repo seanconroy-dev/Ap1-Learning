@@ -27,7 +27,7 @@ card:
     - "Nach Diskussionen über Rollen und Zuständigkeiten stabilisiert sich die Zusammenarbeit (Norming)."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

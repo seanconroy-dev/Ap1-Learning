@@ -27,7 +27,7 @@ card:
     - "Beim Projektstart eines IT-Systems werden Teammitglieder und Auftraggeber gemeinsam über das Vorgehen informiert."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

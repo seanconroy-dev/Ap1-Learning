@@ -27,7 +27,7 @@ card:
     - "Ein Projektstrukturplan zur Aufteilung eines IT-Projekts in Module und Arbeitspakete."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

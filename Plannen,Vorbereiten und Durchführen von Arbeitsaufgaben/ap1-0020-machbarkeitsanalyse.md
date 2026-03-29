@@ -27,7 +27,7 @@ card:
     - "Zeitliche Machbarkeit: Kann das Projekt im vorgesehenen Zeitraum umgesetzt werden?"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

@@ -29,7 +29,7 @@ card:
     - "Bei der Einführung eines neuen IT-Systems werden zuerst Anforderungen festgelegt, dann Planung, Umsetzung und Abschluss durchgeführt."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

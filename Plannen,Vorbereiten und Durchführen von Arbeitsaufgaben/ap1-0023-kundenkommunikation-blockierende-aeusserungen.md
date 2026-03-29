@@ -29,7 +29,7 @@ card:
     - "Konkurrenz diskreditieren: „Unsere Mitbewerber haben keine Ahnung.“"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

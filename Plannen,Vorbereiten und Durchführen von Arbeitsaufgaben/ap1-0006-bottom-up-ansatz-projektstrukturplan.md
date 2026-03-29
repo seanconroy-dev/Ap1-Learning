@@ -27,7 +27,7 @@ card:
     - "Ein Projekt wird aus einzelnen Arbeitspaketen schrittweise zu Teilprojekten und schließlich zum Gesamtprojekt zusammengesetzt."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

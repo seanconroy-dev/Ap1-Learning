@@ -27,7 +27,7 @@ card:
     - "Risikoprävention: Maßnahmen zur Vermeidung oder Reduzierung von Risiken"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

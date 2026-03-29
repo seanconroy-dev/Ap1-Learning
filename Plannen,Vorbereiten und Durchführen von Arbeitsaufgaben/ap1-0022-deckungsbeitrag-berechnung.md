@@ -26,7 +26,7 @@ card:
     - "Der Deckungsbeitrag dient zur Deckung der Fixkosten und trägt anschließend zum Gewinn bei"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

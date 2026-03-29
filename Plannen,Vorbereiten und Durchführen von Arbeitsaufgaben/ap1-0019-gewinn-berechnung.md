@@ -21,7 +21,7 @@ card:
     - "Ein Unternehmen erzielt 5.000 € Erlös und hat 6.000 € Kosten → Ergebnis = −1.000 € (Verlust)"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

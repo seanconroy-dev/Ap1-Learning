@@ -21,7 +21,7 @@ card:
     - "Kritisch: A → C → E → F (alle Vorgänge haben GP = 0)"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

@@ -30,7 +30,7 @@ card:
     - "Migration einer lokalen IT-Infrastruktur in eine Cloud-Umgebung."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

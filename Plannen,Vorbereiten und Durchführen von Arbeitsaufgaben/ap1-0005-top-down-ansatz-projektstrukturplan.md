@@ -27,7 +27,7 @@ card:
     - "Die Phase Entwicklung wird anschließend weiter in Backend, Frontend und Datenbank aufgeteilt."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---
