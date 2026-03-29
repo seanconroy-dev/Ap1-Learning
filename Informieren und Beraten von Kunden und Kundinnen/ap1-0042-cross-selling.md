@@ -24,7 +24,7 @@ card:
     - "Zu einem Smartphone wird eine Versicherung oder Schutzhülle empfohlen."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

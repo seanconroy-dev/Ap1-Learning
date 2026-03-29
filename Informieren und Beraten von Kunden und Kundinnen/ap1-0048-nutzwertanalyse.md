@@ -27,7 +27,7 @@ card:
     - "Auswahl eines Lieferanten anhand mehrerer Bewertungskriterien."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

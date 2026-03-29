@@ -26,7 +26,7 @@ card:
     - "Was genau passiert, wenn Sie das Programm starten?"
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

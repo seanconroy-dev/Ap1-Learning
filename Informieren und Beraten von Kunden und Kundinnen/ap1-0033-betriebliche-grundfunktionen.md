@@ -29,7 +29,7 @@ card:
     - "Finanzierung: Aufnahme eines Kredits zur Finanzierung eines Projekts."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

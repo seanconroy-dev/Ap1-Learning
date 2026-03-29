@@ -27,7 +27,7 @@ card:
     - "Ein international tätiges Unternehmen nutzt die SE-Rechtsform, um innerhalb der EU einfacher tätig zu sein."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

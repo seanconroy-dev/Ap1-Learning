@@ -24,7 +24,7 @@ card:
     - "Vergleich der Reaktionszeiten eines Helpdesks mit Branchenstandards."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

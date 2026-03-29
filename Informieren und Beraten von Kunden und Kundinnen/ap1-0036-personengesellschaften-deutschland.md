@@ -27,7 +27,7 @@ card:
     - "KG: Ein Investor beteiligt sich als Kommanditist an einem Unternehmen."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

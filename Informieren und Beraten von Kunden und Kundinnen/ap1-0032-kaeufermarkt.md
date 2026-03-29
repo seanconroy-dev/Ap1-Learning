@@ -25,7 +25,7 @@ card:
     - "Überangebot an Erdbeeren auf dem Markt führt zu sinkenden Preisen."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

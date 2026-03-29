@@ -23,7 +23,7 @@ card:
     - "Ein Produkt kostet 10 €. Zu diesem Preis entspricht die angebotene Menge genau der nachgefragten Menge."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---

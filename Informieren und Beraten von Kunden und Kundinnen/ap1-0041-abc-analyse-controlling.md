@@ -29,7 +29,7 @@ card:
     - "C-Kunden tragen nur wenig zum Gesamtumsatz bei."
 
 # Lifecycle
-status: draft
+status: published
 created: "2026-03-10"
 updated: "2026-03-10"
 ---
