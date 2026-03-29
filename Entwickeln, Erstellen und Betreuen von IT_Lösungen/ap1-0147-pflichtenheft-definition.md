@@ -19,7 +19,7 @@ card:
   examples: ["Technische Umsetzung eines Systems", "Detailplanung eines IT-Projekts"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

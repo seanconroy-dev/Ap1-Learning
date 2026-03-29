@@ -19,7 +19,7 @@ card:
   examples: ["WPA3-Enterprise mit RADIUS", "WPA2-Personal im Heimnetz"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

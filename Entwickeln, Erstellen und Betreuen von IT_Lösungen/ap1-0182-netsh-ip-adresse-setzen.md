@@ -19,7 +19,7 @@ card:
   examples: ["netsh interface ip set address name=\"LAN-Verbindung\" address=192.168.0.1 mask=255.255.255.0 gateway=192.168.0.254"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

@@ -19,7 +19,7 @@ card:
   examples: ["Trennung von Abteilungen (z. B. HR und IT)", "Priorisierung von VoIP-Datenverkehr"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

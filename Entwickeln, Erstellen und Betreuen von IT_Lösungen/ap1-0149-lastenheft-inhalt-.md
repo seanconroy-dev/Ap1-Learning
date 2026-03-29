@@ -19,7 +19,7 @@ card:
   examples: ["Funktionale Anforderungen eines Systems", "Lieferumfang und Lieferzeiten eines Projekts"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

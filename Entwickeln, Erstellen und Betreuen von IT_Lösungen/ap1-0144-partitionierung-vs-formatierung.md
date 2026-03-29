@@ -19,7 +19,7 @@ card:
   examples: ["Festplatte in C: und D: aufteilen (Partitionierung)", "NTFS auf C: einrichten (Formatierung)"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

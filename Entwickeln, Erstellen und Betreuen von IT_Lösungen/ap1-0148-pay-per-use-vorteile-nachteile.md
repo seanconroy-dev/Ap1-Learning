@@ -19,7 +19,7 @@ card:
   examples: ["Cloud-Dienste wie AWS oder Azure", "Bezahlung pro Nutzung von Rechenleistung"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

@@ -19,7 +19,7 @@ card:
   examples: ["Erhöhung von CPU/RAM bei virtuellen Maschinen", "Erweiterung von Speicherplatz"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

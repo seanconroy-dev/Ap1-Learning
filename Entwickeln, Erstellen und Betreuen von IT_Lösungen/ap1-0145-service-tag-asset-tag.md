@@ -19,7 +19,7 @@ card:
   examples: ["Aufkleber mit Barcode auf einem Laptop", "Service-Tag bei Dell-Geräten"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

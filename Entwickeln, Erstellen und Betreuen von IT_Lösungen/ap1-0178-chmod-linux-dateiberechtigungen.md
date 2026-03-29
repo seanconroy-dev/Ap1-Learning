@@ -19,7 +19,7 @@ card:
   examples: ["chmod 770 test.txt", "chmod u+x script.sh"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

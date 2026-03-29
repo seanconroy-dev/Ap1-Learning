@@ -19,7 +19,7 @@ card:
   examples: ["169.254.10.5", "APIPA bei Netzwerkausfall"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---

@@ -19,7 +19,7 @@ card:
   examples: ["Mobiles Arbeiten im Homeoffice", "Notebook mit Dockingstation im Büro"]
 
 # Lifecycle
-status: draft       # draft | published | deprecated
+status: published       # draft | published | deprecated
 created: "2026-03-18"
 updated: "2026-03-18"
 ---
