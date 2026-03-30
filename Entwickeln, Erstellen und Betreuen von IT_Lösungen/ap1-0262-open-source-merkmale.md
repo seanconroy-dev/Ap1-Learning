@@ -7,7 +7,7 @@ slug: open-source-merkmale
 title: "Open Source Software – Merkmale"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Software", "Softwarearten"]
 tags: ["ap1", "open-source", "software"]
 

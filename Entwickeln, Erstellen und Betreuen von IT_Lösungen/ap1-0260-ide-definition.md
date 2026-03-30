@@ -7,7 +7,7 @@ slug: ide-definition
 title: "IDE (Integrierte Entwicklungsumgebung)"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Softwareentwicklung", "Werkzeuge"]
 tags: ["ap1", "ide", "entwicklung"]
 

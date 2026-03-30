@@ -7,7 +7,7 @@ slug: linux-ip-adresse-anzeigen
 title: "Linux – IPv4-Adresse anzeigen"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Linux", "Netzwerk", "Diagnose"]
 tags: ["ap1", "linux", "ip", "netzwerk"]
 

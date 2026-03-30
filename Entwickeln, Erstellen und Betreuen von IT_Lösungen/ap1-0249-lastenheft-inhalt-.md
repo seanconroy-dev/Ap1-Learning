@@ -7,7 +7,7 @@ slug: lastenheft-inhalt
 title: "Lastenheft"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Projektmanagement", "Anforderungen", "Dokumentation"]
 tags: ["ap1", "lastenheft", "anforderungen"]
 

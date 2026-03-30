@@ -7,7 +7,7 @@ slug: thin-clients-vorteile
 title: "Vorteile von Thin Clients"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Client-Server", "Virtualisierung", "Hardware"]
 tags: ["ap1", "thin-client", "vorteile", "vdI"]
 

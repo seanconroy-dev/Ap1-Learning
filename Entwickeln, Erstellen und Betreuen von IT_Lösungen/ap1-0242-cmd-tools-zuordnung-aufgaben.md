@@ -7,7 +7,7 @@ slug: cmd-tools-zuordnung-aufgaben
 title: "CMD-Tools und ihre Aufgaben – Zuordnung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Diagnose", "CMD"]
 tags: ["ap1", "cmd", "tools", "netzwerk"]
 

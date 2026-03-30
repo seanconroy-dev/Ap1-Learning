@@ -7,7 +7,7 @@ slug: vlan-vorteile
 title: "VLAN – Vorteile"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "VLAN", "Strukturierung"]
 tags: ["ap1", "vlan", "netzwerk", "segmentierung"]
 

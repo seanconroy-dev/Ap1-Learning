@@ -7,7 +7,7 @@ slug: hardware-beschaffung-kriterien
 title: "Beschaffung von IT-Hardware – Kriterien"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Beschaffung", "IT-Betrieb"]
 tags: ["ap1", "hardware", "beschaffung"]
 

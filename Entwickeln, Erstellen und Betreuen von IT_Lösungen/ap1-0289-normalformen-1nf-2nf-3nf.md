@@ -7,7 +7,7 @@ slug: normalformen-1nf-2nf-3nf
 title: "Normalformen (1NF, 2NF, 3NF) und ihr Zweck"
 
 # Classification / navigation (machine-side)
-module: "datenbanken"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Normalisierung", "DB-Design"]
 tags: ["ap1", "datenbank", "normalformen"]
 

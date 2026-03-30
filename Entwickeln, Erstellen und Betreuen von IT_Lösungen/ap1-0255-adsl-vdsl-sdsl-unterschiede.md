@@ -7,7 +7,7 @@ slug: adsl-vdsl-sdsl-unterschiede
 title: "ADSL, VDSL und SDSL – Unterschiede"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Internet", "Übertragungstechniken"]
 tags: ["ap1", "dsl", "adsl", "vdsl", "sdsl"]
 

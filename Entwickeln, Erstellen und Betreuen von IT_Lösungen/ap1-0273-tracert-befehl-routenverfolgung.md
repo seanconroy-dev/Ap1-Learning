@@ -7,7 +7,7 @@ slug: tracert-befehl-routenverfolgung
 title: "tracert – Routenverfolgung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Diagnose", "Tools"]
 tags: ["ap1", "tracert", "netzwerk", "diagnose"]
 

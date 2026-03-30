@@ -7,7 +7,7 @@ slug: remote-desktop-verbindung-rdp
 title: "Remote Desktop Verbindung (RDP) – Funktionsweise"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Remotezugriff", "Protokolle"]
 tags: ["ap1", "rdp", "remote-desktop"]
 

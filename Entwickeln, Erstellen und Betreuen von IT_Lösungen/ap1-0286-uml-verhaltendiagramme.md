@@ -7,7 +7,7 @@ slug: uml-verhaltensdiagramme
 title: "UML-Verhaltensdiagramme und deren Zweck"
 
 # Classification / navigation (machine-side)
-module: "softwareentwicklung"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["UML", "Modellierung", "Diagramme"]
 tags: ["ap1", "uml", "verhaltensdiagramme"]
 

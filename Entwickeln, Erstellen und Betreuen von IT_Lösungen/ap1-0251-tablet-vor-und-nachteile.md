@@ -7,7 +7,7 @@ slug: tablet-vor-und-nachteile
 title: "Tablet – Vor- und Nachteile"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Endgeräte", "Mobile Geräte"]
 tags: ["ap1", "tablet", "hardware"]
 

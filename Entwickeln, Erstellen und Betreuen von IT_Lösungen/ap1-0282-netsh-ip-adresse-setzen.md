@@ -7,7 +7,7 @@ slug: netsh-ip-adresse-setzen
 title: "Windows – IPv4-Adresse mit netsh setzen"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Windows", "Netzwerk", "Konfiguration"]
 tags: ["ap1", "netsh", "ip", "ipv4"]
 

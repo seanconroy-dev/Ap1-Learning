@@ -7,7 +7,7 @@ slug: bedarfsanalyse-definition
 title: "Bedarfsanalyse – Definition und Zweck"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Analyse", "Planung", "Beschaffung"]
 tags: ["ap1", "bedarfsanalyse", "projekt"]
 

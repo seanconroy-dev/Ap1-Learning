@@ -7,7 +7,7 @@ slug: proprietaere-software-definition
 title: "Proprietäre Software – Definition und Eigenschaften"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Software", "Softwarearten"]
 tags: ["ap1", "proprietaer", "software"]
 

@@ -7,7 +7,7 @@ slug: uml-bedeutung
 title: "UML – Unified Modeling Language"
 
 # Classification / navigation (machine-side)
-module: "softwareentwicklung"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Modellierung", "UML", "Softwaredesign"]
 tags: ["ap1", "uml", "modellierung", "grundlagen"]
 

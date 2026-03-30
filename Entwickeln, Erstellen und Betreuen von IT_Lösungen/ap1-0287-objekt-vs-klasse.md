@@ -7,7 +7,7 @@ slug: objekt-vs-klasse
 title: "Objekt vs. Klasse – Unterschied"
 
 # Classification / navigation (machine-side)
-module: "softwareentwicklung"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["OOP", "Grundlagen", "Klassen"]
 tags: ["ap1", "oop", "klasse", "objekt"]
 

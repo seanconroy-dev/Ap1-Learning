@@ -7,7 +7,7 @@ slug: ipconfig-all-netzwerkinfo
 title: "ipconfig /all – Netzwerkinformationen anzeigen"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Diagnose", "IP-Konfiguration"]
 tags: ["ap1", "ipconfig", "netzwerk", "ip"]
 

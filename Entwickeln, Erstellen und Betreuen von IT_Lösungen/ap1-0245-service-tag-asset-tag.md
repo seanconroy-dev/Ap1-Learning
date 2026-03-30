@@ -7,7 +7,7 @@ slug: service-tag-asset-tag
 title: "Service-Tag und Asset-Tag"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Inventarisierung", "IT-Betrieb"]
 tags: ["ap1", "asset", "service-tag", "inventar"]
 

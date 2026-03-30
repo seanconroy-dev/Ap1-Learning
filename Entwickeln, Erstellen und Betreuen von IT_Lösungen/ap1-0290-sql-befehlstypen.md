@@ -7,7 +7,7 @@ slug: sql-befehlstypen
 title: "SQL-Befehlstypen (DDL, DML, DCL, TCL, DQL)"
 
 # Classification / navigation (machine-side)
-module: "datenbanken"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["SQL", "DBMS"]
 tags: ["ap1", "sql", "grundlagen"]
 

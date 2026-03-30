@@ -7,7 +7,7 @@ slug: oem-software-hardware
 title: "OEM-Software und OEM-Hardware – Definition"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Software", "Beschaffung"]
 tags: ["ap1", "oem", "software", "hardware"]
 

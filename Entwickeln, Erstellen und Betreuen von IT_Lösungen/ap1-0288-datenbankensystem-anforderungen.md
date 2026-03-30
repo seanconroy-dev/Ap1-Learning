@@ -7,7 +7,7 @@ slug: datenbanksystem-anforderungen
 title: "Allgemeine Anforderungen an ein Datenbanksystem"
 
 # Classification / navigation (machine-side)
-module: "datenbanken"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["DBMS", "Grundlagen"]
 tags: ["ap1", "datenbank", "dbms"]
 

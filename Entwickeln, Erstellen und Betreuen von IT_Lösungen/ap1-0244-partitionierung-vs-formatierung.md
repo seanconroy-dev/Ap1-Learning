@@ -7,7 +7,7 @@ slug: partitionierung-vs-formatierung
 title: "Partitionierung vs. Formatierung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Speicher", "Datenträger", "Dateisysteme"]
 tags: ["ap1", "partition", "formatierung", "dateisystem"]
 

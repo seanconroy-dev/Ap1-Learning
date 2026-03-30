@@ -7,7 +7,7 @@ slug: vpn-verbindungsarten
 title: "VPN-Verbindungsarten"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "VPN", "Sicherheit"]
 tags: ["ap1", "vpn", "netzwerk", "sicherheit"]
 

@@ -7,7 +7,7 @@ slug: convertible-definition
 title: "Convertible (2-in-1-Gerät)"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Endgeräte", "Mobile Geräte"]
 tags: ["ap1", "convertible", "notebook", "tablet"]
 

@@ -7,7 +7,7 @@ slug: dateiserver-anforderungen
 title: "Dateiserver – Hard- und Softwareanforderungen"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Server", "Netzwerk", "Dateisysteme"]
 tags: ["ap1", "dateiserver", "anforderungen"]
 

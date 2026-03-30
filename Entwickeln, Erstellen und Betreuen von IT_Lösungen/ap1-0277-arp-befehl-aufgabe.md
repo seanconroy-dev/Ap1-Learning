@@ -7,7 +7,7 @@ slug: arp-befehl-aufgabe
 title: "ARP – Aufgabe des Befehls"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "ARP", "Protokolle"]
 tags: ["ap1", "arp", "netzwerk", "mac"]
 

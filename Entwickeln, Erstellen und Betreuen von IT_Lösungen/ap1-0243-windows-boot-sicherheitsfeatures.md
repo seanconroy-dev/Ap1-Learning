@@ -7,7 +7,7 @@ slug: windows-boot-sicherheitsfeatures
 title: "Sicherheitsfeatures beim Windows-Start"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Sicherheit", "Bootprozess", "UEFI"]
 tags: ["ap1", "windows", "boot", "security"]
 

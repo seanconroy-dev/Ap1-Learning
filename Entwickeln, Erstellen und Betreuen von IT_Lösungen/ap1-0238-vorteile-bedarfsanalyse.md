@@ -7,7 +7,7 @@ slug: vorteile-bedarfsanalyse
 title: "Vorteile der Bedarfsanalyse"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Analyse", "Kundenorientierung", "Planung"]
 tags: ["ap1", "bedarfsanalyse", "vorteile"]
 

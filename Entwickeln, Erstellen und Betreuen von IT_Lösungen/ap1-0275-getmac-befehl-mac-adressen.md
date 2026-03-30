@@ -7,7 +7,7 @@ slug: getmac-befehl-mac-adressen
 title: "getmac – MAC-Adressen anzeigen"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Diagnose", "Hardware"]
 tags: ["ap1", "getmac", "mac", "netzwerk"]
 

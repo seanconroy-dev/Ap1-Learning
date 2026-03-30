@@ -7,7 +7,7 @@ slug: smart-festplattenueberwachung
 title: "S.M.A.R.T. – Festplattenüberwachung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Speicher", "Überwachung"]
 tags: ["ap1", "smart", "festplatte", "diagnose"]
 

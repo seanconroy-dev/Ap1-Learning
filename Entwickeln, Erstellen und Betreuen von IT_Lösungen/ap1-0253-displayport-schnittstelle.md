@@ -7,7 +7,7 @@ slug: displayport-schnittstelle
 title: "DisplayPort – Digitale Schnittstelle"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Schnittstellen", "Peripherie"]
 tags: ["ap1", "displayport", "anschlüsse"]
 

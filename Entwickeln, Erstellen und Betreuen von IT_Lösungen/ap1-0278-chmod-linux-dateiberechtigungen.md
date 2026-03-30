@@ -7,7 +7,7 @@ slug: chmod-linux-dateiberechtigungen
 title: "chmod – Dateiberechtigungen in Linux"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Linux", "Dateisystem", "Berechtigungen"]
 tags: ["ap1", "chmod", "linux", "rechte"]
 

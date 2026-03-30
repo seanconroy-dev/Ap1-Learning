@@ -7,7 +7,7 @@ slug: wlan-sicherheitsmassnahmen
 title: "WLAN-Sicherheit – Schutzmaßnahmen"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Sicherheit", "WLAN"]
 tags: ["ap1", "wlan", "sicherheit", "netzwerk"]
 

@@ -7,7 +7,7 @@ slug: pay-per-use-modell
 title: "Pay-per-use Modell – Nutzung nach Verbrauch"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Cloud", "Kostenmodelle", "Infrastruktur"]
 tags: ["ap1", "pay-per-use", "cloud", "kostenmodell"]
 

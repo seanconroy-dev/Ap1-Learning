@@ -7,7 +7,7 @@ slug: dual-channel-arbeitsspeicher-bedingungen
 title: "Dual Channel – Voraussetzungen für Arbeitsspeicher"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Arbeitsspeicher", "Mainboard"]
 tags: ["ap1", "ram", "dual-channel", "hardware"]
 

@@ -7,7 +7,7 @@ slug: standardsoftware-definition
 title: "Standardsoftware – Definition und Einordnung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Software", "Softwarearten"]
 tags: ["ap1", "standardsoftware", "software"]
 

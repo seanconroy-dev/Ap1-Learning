@@ -7,7 +7,7 @@ slug: wlan-sicherheitsmethoden-verschluesselung
 title: "WLAN – Sicherheitsmethoden und Verschlüsselung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "WLAN", "Sicherheit"]
 tags: ["ap1", "wlan", "wpa2", "wpa3", "verschluesselung"]
 

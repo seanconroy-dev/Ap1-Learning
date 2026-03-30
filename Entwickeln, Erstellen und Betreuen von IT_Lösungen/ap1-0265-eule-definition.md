@@ -7,7 +7,7 @@ slug: eula-definition
 title: "EULA – Endbenutzer-Lizenzvereinbarung"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Software", "Lizenzierung"]
 tags: ["ap1", "eula", "lizenz", "software"]
 

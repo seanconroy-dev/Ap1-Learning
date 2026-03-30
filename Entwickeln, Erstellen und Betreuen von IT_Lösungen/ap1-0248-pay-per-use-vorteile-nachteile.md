@@ -7,7 +7,7 @@ slug: pay-per-use-vorteile-nachteile
 title: "Pay-per-use Lizenzmodell"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Lizenzmodelle", "Kostenmodelle", "IT-Betrieb"]
 tags: ["ap1", "pay-per-use", "cloud", "kosten"]
 

@@ -7,7 +7,7 @@ slug: namensaufloesung-cmd-tools
 title: "Namensauflösung prüfen mit CMD und PowerShell"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "DNS", "Diagnose"]
 tags: ["ap1", "dns", "cmd", "powershell"]
 

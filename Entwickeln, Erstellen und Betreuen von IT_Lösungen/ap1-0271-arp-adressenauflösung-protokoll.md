@@ -7,7 +7,7 @@ slug: arp-adressauflösung-protokoll
 title: "ARP – Address Resolution Protocol"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Protokolle", "OSI-Modell"]
 tags: ["ap1", "arp", "netzwerk", "ip", "mac"]
 

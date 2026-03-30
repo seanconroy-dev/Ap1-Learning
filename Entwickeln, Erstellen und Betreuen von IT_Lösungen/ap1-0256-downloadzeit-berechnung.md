@@ -7,7 +7,7 @@ slug: downloadzeit-berechnung
 title: "Downloadzeit berechnen – Beispiel"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "Datenübertragung", "Berechnungen"]
 tags: ["ap1", "download", "bandbreite", "rechnung"]
 

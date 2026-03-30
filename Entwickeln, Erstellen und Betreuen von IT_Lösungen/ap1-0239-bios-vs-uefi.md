@@ -7,7 +7,7 @@ slug: bios-vs-uefi
 title: "BIOS vs. UEFI – Vergleich"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Hardware", "Systemstart", "Firmware"]
 tags: ["ap1", "bios", "uefi"]
 

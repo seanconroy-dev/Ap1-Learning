@@ -7,7 +7,7 @@ slug: apipa-dhcp-erklaerung
 title: "APIPA und DHCP – Verhalten bei fehlendem DHCP-Server"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Netzwerk", "IP-Adressierung", "DHCP"]
 tags: ["ap1", "apipa", "dhcp", "ipv4"]
 

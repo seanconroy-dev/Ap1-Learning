@@ -7,7 +7,7 @@ slug: skalierbarkeit-definition
 title: "Skalierbarkeit – Bedeutung im Rechenzentrum"
 
 # Classification / navigation (machine-side)
-module: "itsysteme"
+module: "Entwickeln, Erstellen und Betreuen von IT_Lösungen"
 topics: ["Rechenzentrum", "Infrastruktur", "Betrieb"]
 tags: ["ap1", "skalierbarkeit", "cloud", "infrastruktur"]
 
