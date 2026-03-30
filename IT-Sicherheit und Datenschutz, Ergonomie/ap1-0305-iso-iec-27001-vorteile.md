@@ -1,6 +1,6 @@
 ---
 # Identity (stable; never change after publishing)
-id: ap1-0205
+id: ap1-0305
 slug: "iso-iec-27001-vorteile"
 
 # Display
