@@ -1,143 +1,149 @@
 # Ap1-Learning
 
-Lernmaterialien und Ressourcen zur Vorbereitung auf die **AP1-Prüfung (IT-Berufe)**.
+Learning materials and resources for preparing for the **AP1 exam (IT professions)**.
 
-Dieses Repository enthält strukturierte Lernkarten und ergänzende Erklärungen für die Inhalte der Abschlussprüfung Teil 1.
+Structured learning cards  
+Flashcard-based learning  
+Exam-focused content
 
-<p align="center">
-  <img src="assets/preview.gif" alt="Preview" width="800"/>
-</p>
-
-![Main Page](assets/mainPage.png)
-
-🌐 **Live-Website:** [https://seanconroy-dev.github.io/Ap1-Learning](https://seanconroy-dev.github.io/Ap1-Learning)
+**Live Website:** https://seanconroy-dev.github.io/Ap1-Learning
 
 ---
 
-# Ordnerstruktur
+## Preview
 
-| Ordner | Beschreibung |
+![App Preview](./assets/preview.gif)
+
+## Screenshot
+
+![Main Page](assets/mainPage.png)
+
+---
+
+# Folder Structure
+
+| Folder | Description |
 |--------|--------------|
-| [Plannen,Vorbereiten und Durchführen von Arbeitsaufgaben](./Plannen,Vorbereiten%20und%20Durchführen%20von%20Arbeitsaufgaben/) | Planung und Durchführung von IT-Arbeitsaufgaben |
-| [Informieren und Beraten von Kunden und Kundinnen](./Informieren%20und%20Beraten%20von%20Kunden%20und%20Kundinnen/) | Kundenkommunikation und Beratung |
-| [Beurteilen marktgängiger IT-Systeme und Lösungen](./Beurteilen%20marktgängiger%20IT-Systeme%20und%20Lösungen/) | Analyse und Bewertung von IT-Systemen |
-| [Entwickeln, Erstellen und Betreuen von IT_Lösungen](./Entwickeln,%20Erstellen%20und%20Betreuen%20von%20IT_Lösungen/) | Entwicklung und Betreuung von IT-Lösungen |
-| [Qualitätssichernde Maßnahmen](./Qualitätssichernde%20Maßnahmen/) | Qualitätssicherung und -management |
-| [IT-Sicherheit und Datenschutz, Ergonomie](./IT-Sicherheit%20und%20Datenschutz,%20Ergonomie/) | IT-Sicherheit, Datenschutz und Ergonomie |
-| [Auftragsabschluss und Leistungenerbringen](./Auftragsabschluss%20und%20Leistungenerbringen/) | Auftragsabschluss und Leistungserbringung |
+| [Plannen,Vorbereiten und Durchführen von Arbeitsaufgaben](./Plannen,Vorbereiten%20und%20Durchführen%20von%20Arbeitsaufgaben/) | Planning and execution of IT tasks |
+| [Informieren und Beraten von Kunden und Kundinnen](./Informieren%20und%20Beraten%20von%20Kunden%20und%20Kundinnen/) | Customer communication and consulting |
+| [Beurteilen marktgängiger IT-Systeme und Lösungen](./Beurteilen%20marktgängiger%20IT-Systeme%20und%20Lösungen/) | Analysis and evaluation of IT systems |
+| [Entwickeln, Erstellen und Betreuen von IT_Lösungen](./Entwickeln,%20Erstellen%20und%20Betreuen%20von%20IT_Lösungen/) | Development and maintenance of IT solutions |
+| [Qualitätssichernde Maßnahmen](./Qualitätssichernde%20Maßnahmen/) | Quality assurance and management |
+| [IT-Sicherheit und Datenschutz, Ergonomie](./IT-Sicherheit%20und%20Datenschutz,%20Ergonomie/) | IT security, data protection, and ergonomics |
+| [Auftragsabschluss und Leistungenerbringen](./Auftragsabschluss%20und%20Leistungenerbringen/) | Project completion and service delivery |
 
 ---
 
 # Frontmatter Template
 
-Jede Lernkarte verwendet ein festes YAML-Frontmatter.  
-**Dieses Schema ist stabil und darf nach Veröffentlichung nicht verändert werden.**
+Each learning card uses a fixed YAML frontmatter.  
+This schema is stable and must not be changed after publication.
 
-    ---
-    # Identity (stable; never change after publishing)
-    id: ap1-0000
-    slug: ""
+```yaml
+# Identity (stable; never change after publishing)
+id: ap1-0000
+slug: ""
 
-    # Display
-    title: ""
+# Display
+title: ""
 
-    # Classification / navigation (machine-side)
-    module: ""          # must match one top-level folder name exactly
-    topics: []          # e.g. ["Netzwerke", "OSI"]
-    tags: []            # e.g. ["prüfungsrelevant", "definition"]
+# Classification / navigation (machine-side)
+module: ""          # must match one top-level folder name exactly
+topics: []          # e.g. ["Netzwerke", "OSI"]
+tags: []            # e.g. ["exam-relevant", "definition"]
 
-    # Flashcard payload
-    card:
-      type: basic       # basic | multi | steps | definition | comparison
-      question: ""
-      answer: ""
-      examples: []      # optional; see example below
+# Flashcard payload
+card:
+  type: basic       # basic | multi | steps | definition | comparison
+  question: ""
+  answer: ""
+  examples: []      # optional
 
-    # Lifecycle
-    status: draft       # draft | published | deprecated
-    created: "2026-03-10"
-    updated: "2026-03-10"
-    ---
+# Lifecycle
+status: draft       # draft | published | deprecated
+created: "2026-03-10"
+updated: "2026-03-10"
+```
 
-Nach dem Frontmatter folgt der eigentliche Lerninhalt.
+The actual learning content follows after the frontmatter.
 
 ---
 
 # File Name Convention
 
-Dateien folgen einem festen Namensschema:
+Files follow a strict naming pattern:
 
     <module-folder>/ap1-0001-<slug>.md
 
-Beispiel:
+Example:
 
     Beurteilen marktgängiger IT-Systeme und Lösungen/ap1-0071-usv-aufgaben.md
 
-Regeln:
+Rules:
 
-- Die **ID im Dateinamen muss der ID im Frontmatter entsprechen**
-- Der **Slug sollte kurz, eindeutig und kleingeschrieben sein**
-- Wörter werden mit **Bindestrichen getrennt**
+- The **ID in the filename must match the ID in the frontmatter**
+- The **slug should be short, unique, and lowercase**
+- Words must be separated by **hyphens**
 
 ---
 
 # Note Style Guidelines
 
-Das Repository hat sich im Laufe der Zeit weiterentwickelt.
+The repository has evolved over time.
 
-- **Frontmatter-Schema ist unveränderlich**
-- **Bestehende Notizen dürfen nicht nachträglich umformatiert werden**, außer zur Korrektur fachlicher Fehler
-- **Notizen vor `ap1-0072` können ein älteres Format besitzen**
-- **Neue Notizen müssen dem aktuellen Stil folgen**
-
----
-
-# Inhaltliche Struktur neuer Notizen
-
-Neue Notizen sollten folgende Struktur verwenden:
-
-    ## Überblick
-    ## Kernerklärung
-    ## Praktisches Beispiel
-    ## Prüfungsrelevanz (AP1)
-    ### Typische Prüfungsfragen
-    ### Antworten auf die typischen Prüfungsfragen
-    ## Merksatz
-
-Diese Struktur unterstützt:
-
-- schnelles Wiederholen
-- Verständnis der Konzepte
-- Vorbereitung auf typische Prüfungsfragen
+- **Frontmatter schema is immutable**
+- **Existing notes must not be reformatted**, except to fix factual errors
+- **Notes before `ap1-0072` may use an older format**
+- **New notes must follow the current structure**
 
 ---
 
-# Flashcard-Regeln
+# Structure of New Notes
 
-Die Flashcard im Frontmatter dient dem **aktiven Lernen (z. B. mit Anki)**.
+New notes should follow this structure:
 
-Deshalb gilt:
+    ## Overview
+    ## Core Explanation
+    ## Practical Example
+    ## Exam Relevance (AP1)
+    ### Typical Exam Questions
+    ### Answers to Typical Questions
+    ## Key Takeaway
 
-- `card.answer` muss **kurz und prüfungstauglich** sein
-- längere Erklärungen gehören **nur in den Body der Notiz**
-- Beispiele können optional im Feld `examples` ergänzt werden
+This structure supports:
 
-Ziel:
-
-    Flashcard = schnelle Wiederholung
-    Notiztext = Verständnis und Kontext
+- fast revision
+- conceptual understanding
+- preparation for typical exam questions
 
 ---
 
-# Stilrichtlinien
+# Flashcard Rules
 
-Beim Schreiben neuer Notizen gelten folgende Regeln:
+The flashcard in the frontmatter is used for **active recall (e.g., Anki)**.
 
-- Sprache: **Deutsch**
-- Stil: **präzise, neutral, prüfungsorientiert**
-- Keine Umgangssprache oder Konversationsstil
-- **kurze Absätze und Stichpunkte bevorzugen**
-- Tabellen bei **Vergleichen oder Klassifikationen**
-- **Mermaid-Diagramme**, wenn Prozesse oder Zusammenhänge dargestellt werden können
+Therefore:
 
-Ziel ist ein **klar strukturiertes, leicht wiederholbares Lernsystem für die AP1-Prüfung**.
+- `card.answer` must be **short and exam-ready**
+- longer explanations belong **only in the note body**
+- examples can optionally be added in `examples`
+
+Goal:
+
+    Flashcard = fast recall  
+    Note content = understanding and context
+
+---
+
+# Style Guidelines
+
+When writing new notes:
+
+- Language: **German**
+- Style: **precise, neutral, exam-oriented**
+- No conversational tone
+- Prefer **short paragraphs and bullet points**
+- Use tables for **comparisons or classifications**
+- Use **Mermaid diagrams** for processes and relationships
+
+Goal: a **clear, structured, and repeatable learning system for the AP1 exam**
