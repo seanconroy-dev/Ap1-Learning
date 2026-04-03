@@ -1,66 +1,76 @@
 ---
-# Identity (stable; never change after publishing)
 id: ap1-0162
 slug: schnittstellen-erkennen
 
-# Display
 title: "Schnittstellen erkennen (DisplayPort, DVI, VGA, USB)"
 
-# Classification / navigation (machine-side)
 module: "Beurteilen marktgängiger IT-Systeme und Lösungen"
 topics: ["Hardware", "Schnittstellen"]
-tags: ["prüfungsrelevant", "bilderkennung"]
+tags: ["prüfungsrelevant"]
 
-# Flashcard payload
 card:
   type: basic
-  question: "Um welche Schnittstellen handelt es sich auf dem Bild?"
-  answer: "DisplayPort, DVI, VGA, USB Typ B und zwei USB Typ A."
+  question: "Nenne typische Monitor- und Geräteschnittstellen für Video- und Datenübertragung."
+  answer: "DisplayPort, DVI, VGA (Video) sowie USB Typ B und USB Typ A (Daten)."
   examples:
-    - "DisplayPort → digitale Videoübertragung"
-    - "DVI → digitale bzw. digitale/analoge Bildübertragung"
-    - "VGA → analoge Videoschnittstelle"
-    - "USB Typ B → häufig bei Druckern oder Monitor-Hubs"
-    - "USB Typ A → Standard-USB-Anschluss für Peripheriegeräte"
+    - "DisplayPort → digitale Video- und Audioübertragung"
+    - "DVI → digitale bzw. kombinierte digitale/analoge Bildübertragung"
+    - "VGA → analoge Videoschnittstelle (veraltet)"
+    - "USB Typ B → Verbindung zwischen Gerät (z. B. Drucker/Monitor) und Computer"
+    - "USB Typ A → Standardanschluss für Peripheriegeräte"
 
-# Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-04-03"
 ---
 
 ## Schnittstellen erkennen (DisplayPort, DVI, VGA, USB)
 
-Auf dem Bild sind mehrere **typische Schnittstellen eines Monitors oder Dockinggeräts** zu erkennen.
+### Kurzdefinition
 
-Sie dienen hauptsächlich zur:
-
-- **Videoübertragung**
-- **Datenübertragung über USB**
+Schnittstellen sind **physische Anschlüsse**, über die Geräte **Daten oder Videosignale** austauschen.
 
 ---
 
-## Erkannte Schnittstellen
+## Grundprinzip
 
-| Schnittstelle | Typ | Verwendung |
-|---|---|---|
-| DisplayPort | Video | Digitale Bild- und Audioübertragung |
-| DVI | Video | Digitale oder digitale/analoge Videoübertragung |
-| VGA | Video | Ältere analoge Videoschnittstelle |
-| USB Typ B | Daten | Verbindung z. B. zwischen Monitor/Drucker und Computer |
-| USB Typ A (2×) | Daten | Anschluss von USB-Geräten |
+Man unterscheidet hier zwei Hauptkategorien:
+
+### 1. Videoschnittstellen
+Dienen zur Übertragung von Bild (und teilweise Audio):
+
+- **DisplayPort** → modern, digital
+- **DVI** → digital oder kombiniert (digital + analog)
+- **VGA** → rein analog, veraltet
+
+### 2. Datenschnittstellen (USB)
+Dienen zur Verbindung von Peripheriegeräten:
+
+- **USB Typ B** → meist am Gerät (z. B. Drucker, Monitor-Hub)
+- **USB Typ A** → meist am Computer (Standardanschluss)
 
 ---
 
-## Typische Position im Bild
+## Strukturierte Übersicht
 
-Die Anschlüsse befinden sich (von oben nach unten):
+| Schnittstelle | Kategorie | Signalart | Typische Verwendung |
+|---|---|---|---|
+| DisplayPort | Video | digital | Monitore, moderne GPUs |
+| DVI | Video | digital / analog | ältere Monitore |
+| VGA | Video | analog | sehr alte Systeme |
+| USB Typ B | Daten | digital | Drucker, Monitore |
+| USB Typ A | Daten | digital | Maus, Tastatur, USB-Sticks |
 
-1. **DisplayPort**
-2. **DVI**
-3. **VGA**
-4. **USB Typ B**
-5. **2× USB Typ A**
+---
+
+## Praktisches Beispiel
+
+Ein Monitor kann mehrere Anschlüsse besitzen:
+
+- **DisplayPort** → Verbindung für hochauflösendes Bild
+- **DVI/VGA** → Kompatibilität mit älteren PCs
+- **USB Typ B** → verbindet Monitor mit PC (für USB-Hub im Monitor)
+- **USB Typ A** → Anschlüsse direkt am Monitor für Geräte
 
 ---
 
@@ -79,28 +89,29 @@ USB_A --> Daten
 
 ---
 
-## Wichtige Eigenschaften
-
-| Schnittstelle | Besonderheit |
-|---|---|
-| DisplayPort | moderner digitaler Standard |
-| DVI | älterer digitaler Monitoranschluss |
-| VGA | analoger Anschluss, heute selten |
-| USB Typ B | häufig bei Druckern oder Monitor-Hubs |
-| USB Typ A | Standardanschluss für USB-Geräte |
-
----
-
 ## Prüfungsrelevanz (IHK / AP1)
 
-Typische Aufgaben:
+Typische Anforderungen:
 
-- **Schnittstellen anhand eines Bildes erkennen**
-- Unterschied zwischen **analogen und digitalen Videoanschlüssen**
-- Zuordnung von **USB-Steckertypen**
-
-**Merksatz**
-
-> DisplayPort, DVI und VGA sind Videoschnittstellen, während USB Typ A und Typ B zur Datenübertragung dienen.
+- **Unterscheidung analog vs. digital**
+- **Zuordnung von Schnittstellen zu ihrem Zweck**
+- **Erkennen typischer Anschlüsse (auch ohne Bildbeschreibung!)**
 
 ---
+
+## Häufige Fehler
+
+- **DVI immer als rein digital ansehen**  
+  → falsch, es gibt auch DVI-I (analog + digital)
+
+- **USB Typ A und B verwechseln**  
+  → A = Host (PC), B = Gerät
+
+- **VGA als digitalen Anschluss einstufen**  
+  → falsch, VGA ist immer analog
+
+---
+
+## Merksatz
+
+> DisplayPort, DVI und VGA übertragen Video – USB überträgt Daten.
