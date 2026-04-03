@@ -4,6 +4,12 @@ Lernmaterialien und Ressourcen zur Vorbereitung auf die **AP1-Prüfung (IT-Beruf
 
 Dieses Repository enthält strukturierte Lernkarten und ergänzende Erklärungen für die Inhalte der Abschlussprüfung Teil 1.
 
+<p align="center">
+  <img src="assets/preview.gif" alt="Preview" width="800"/>
+</p>
+
+![Main Page](assets/mainPage.png)
+
 🌐 **Live-Website:** [https://seanconroy-dev.github.io/Ap1-Learning](https://seanconroy-dev.github.io/Ap1-Learning)
 
 ---
