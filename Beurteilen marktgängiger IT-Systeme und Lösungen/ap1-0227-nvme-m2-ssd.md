@@ -15,6 +15,7 @@ tags: ["ap1", "ssd", "nvme"]
 card:
   type: basic       # basic | multi | steps | definition | comparison
   question: "Was für ein Modul ist auf diesem Bild dargestellt?"
+  image: "assets/SSD-NvMe-M2-small.png"
   answer: "Eine NVMe-SSD im M.2-Formfaktor, die über PCIe angebunden ist."
   examples: []
 
