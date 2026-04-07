@@ -5,8 +5,8 @@ interface Props {
   description?: string;
 }
 const { 
-  title = 'AP1 Lernsystem für Fachinformatiker', 
-  description = 'Interaktives Lernsystem zur Vorbereitung auf die AP1-Prüfung für Fachinformatiker'
+  title = 'FIAE Lernsystem für Fachinformatiker', 
+  description = 'Interaktives Lernsystem zur Vorbereitung auf die Prüfungen für Fachinformatiker'
 } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
@@ -22,7 +22,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <body class="min-h-screen bg-gray-50 text-gray-900 flex flex-col">
     <header class="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
       <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-6">
-        <a href={`${base}/`} class="text-lg font-bold text-blue-700 hover:text-blue-900">AP1 Lernsystem</a>
+        <a href={`${base}/`} class="text-lg font-bold text-blue-700 hover:text-blue-900">FIAE Lernsystem</a>
         <a href={`${base}/cards`} class="text-sm text-gray-600 hover:text-blue-700 transition-colors">Alle Karten</a>
         <a href={`${base}/modules`} class="text-sm text-gray-600 hover:text-blue-700 transition-colors">Module</a>
         <a href={`${base}/quiz`} class="text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 px-3 py-1.5 rounded-lg transition-colors ml-auto">Quiz starten</a>
