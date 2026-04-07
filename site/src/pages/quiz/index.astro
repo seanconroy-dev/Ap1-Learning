@@ -61,13 +61,15 @@ const cardData = cards.map(c => ({
         >
           <!-- Front -->
           <div
-            class="absolute inset-0 bg-white border-2 border-blue-200 rounded-2xl p-8 flex flex-col justify-center shadow-md"
+            class="absolute inset-0 bg-white border-2 border-blue-200 rounded-2xl p-8 flex flex-col justify-between shadow-md overflow-hidden"
             style="backface-visibility: hidden;"
           >
-            <div class="text-xs uppercase tracking-wider text-blue-400 font-semibold mb-3">Frage</div>
-            <div id="card-question" class="text-xl font-semibold text-gray-800 leading-relaxed"></div>
-            <img id="card-image" class="hidden mt-4 max-h-48 mx-auto rounded-lg object-contain" alt="" />
-            <div class="mt-6 text-center text-sm text-blue-300">Klicken zum Aufdecken →</div>
+            <div>
+              <div class="text-xs uppercase tracking-wider text-blue-400 font-semibold mb-3">Frage</div>
+              <div id="card-question" class="text-xl font-semibold text-gray-800 leading-relaxed"></div>
+              <img id="card-image" class="hidden mt-4 max-h-32 mx-auto rounded-lg object-contain" alt="" />
+            </div>
+            <div class="text-center text-sm text-blue-300">Klicken zum Aufdecken →</div>
           </div>
           <!-- Back -->
           <div
