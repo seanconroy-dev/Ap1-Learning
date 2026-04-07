@@ -14,6 +14,7 @@ const cardData = cards.map(c => ({
   module: c.module,
   tags: c.tags,
   question: c.card.question,
+  image: c.card.image ?? null,
   answer: c.card.answer,
   examples: c.card.examples ?? [],
   type: c.card.type,
@@ -65,6 +66,7 @@ const cardData = cards.map(c => ({
           >
             <div class="text-xs uppercase tracking-wider text-blue-400 font-semibold mb-3">Frage</div>
             <div id="card-question" class="text-xl font-semibold text-gray-800 leading-relaxed"></div>
+            <img id="card-image" class="hidden mt-4 max-h-48 mx-auto rounded-lg object-contain" alt="" />
             <div class="mt-6 text-center text-sm text-blue-300">Klicken zum Aufdecken →</div>
           </div>
           <!-- Back -->
@@ -148,6 +150,7 @@ const cardData = cards.map(c => ({
   const flipCard = document.getElementById('flip-card');
   const cardInner = document.getElementById('card-inner');
   const cardQuestion = document.getElementById('card-question');
+  const cardImage = document.getElementById('card-image');
   const cardAnswer = document.getElementById('card-answer');
   const cardExamples = document.getElementById('card-examples');
   const cardExamplesList = document.getElementById('card-examples-list');
@@ -199,6 +202,14 @@ const cardData = cards.map(c => ({
     cardInner.style.transform = '';
     ratingButtons.classList.add('hidden');
     cardQuestion.textContent = card.question;
+    if (card.image) {
+      cardImage.src = `${base}/${card.image}`;
+      cardImage.alt = card.question;
+      cardImage.classList.remove('hidden');
+    } else {
+      cardImage.src = '';
+      cardImage.classList.add('hidden');
+    }
     cardAnswer.innerHTML = renderMd(card.answer);
 
     if (card.examples && card.examples.length > 0) {

@@ -25,6 +25,7 @@ export interface CardFrontmatter {
   card: {
     type: 'basic' | 'multi' | 'steps' | 'definition' | 'comparison';
     question: string;
+    image?: string;
     answer: string;
     examples?: string[];
   };
@@ -70,6 +71,7 @@ export function getAllCards(): Card[] {
         card: {
           type: data.card?.type ?? 'basic',
           question: data.card?.question ?? '',
+          image: data.card?.image,
           answer: data.card?.answer ?? '',
           examples: data.card?.examples ?? [],
         },
