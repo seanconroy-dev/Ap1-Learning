@@ -16,7 +16,7 @@ Exam-focused content
 
 ## Screenshot
 
-![Main Page](assets/mainPage.png)
+![Main Page](assets/FrontPage.png)
 
 ---
 
