@@ -26,6 +26,7 @@ updated: "2026-03-18"
 ---
 
 ## DisplayPort – Digitale Schnittstelle
+
 DisplayPort ist eine digitale Schnittstelle zur Übertragung von Bild- und Tonsignalen.
 
 Er wird häufig für Monitore und moderne Grafikkarten verwendet.
@@ -64,14 +65,17 @@ A -->|Audio + Video| B
 ## Prüfungsrelevanz (AP1)
 
 ### Typische Prüfungsfragen
+
 - Erkenne den Anschluss auf einem Bild
 - Wofür wird DisplayPort verwendet?
 - Was wird übertragen?
 
 ### Antworten auf die typischen Prüfungsfragen
+
 - Anschluss: DisplayPort / Mini-DisplayPort  
 - Verwendung: Verbindung von PC und Monitor  
 - Übertragung: digitales Bild und Ton  
 
 ## Merksatz
+
 DisplayPort ist eine moderne, digitale Schnittstelle für hochauflösende Bild- und Tonübertragung.
