@@ -16,7 +16,7 @@ card:
   type: basic       # basic | multi | steps | definition | comparison
   question: "Um welche Speichermodule handelt es sich auf dem Bild?"
   image: "assets/so-dimm_dimmDDR3.png"
-  answer: "Links ein DDR3-SDRAM DIMM (Desktop-RAM) und rechts ein SO-DIMM (Notebook-RAM)."
+  answer: "Oben ein SO-DIMM (Notebook-RAM) und unten ein DDR3-SDRAM DIMM (Desktop-RAM) ."
   examples: []
 
 # Lifecycle
