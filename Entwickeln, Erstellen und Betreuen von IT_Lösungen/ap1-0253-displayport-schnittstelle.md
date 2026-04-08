@@ -15,6 +15,7 @@ tags: ["ap1", "displayport", "anschlüsse"]
 card:
   type: basic       # basic | multi | steps | definition | comparison
   question: "Um welchen digitalen Anschluss handelt es sich auf dem Bild?"
+  image: "assets/displayport_port_question.png"
   answer: "DisplayPort (inkl. Mini-DisplayPort) – digitale Schnittstelle für Bild- und Tonübertragung."
   examples: ["Anschluss eines Monitors an den PC", "Verbindung Laptop zu externem Display"]
 
