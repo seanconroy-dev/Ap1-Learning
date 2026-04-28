@@ -25,12 +25,12 @@ const cardData = cards.map(c => ({
   <div class="max-w-2xl mx-auto space-y-6">
     <div class="flex items-center justify-between flex-wrap gap-3">
       <h1 class="text-3xl font-bold text-gray-900">Quiz</h1>
-      <div class="flex items-center gap-2">
-        <select id="quiz-module" class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <div class="flex flex-wrap items-center gap-2">
+        <select id="quiz-module" class="flex-1 sm:flex-none border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="">Alle Module</option>
           {modules.map(m => <option value={m}>{m}</option>)}
         </select>
-        <button id="btn-start" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors">
+        <button id="btn-start" class="shrink-0 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors">
           Starten
         </button>
       </div>
@@ -62,7 +62,7 @@ const cardData = cards.map(c => ({
         >
           <!-- Front -->
           <div
-            class="absolute inset-0 bg-white border-2 border-blue-200 rounded-2xl p-8 flex flex-col justify-between shadow-md"
+            class="absolute inset-0 bg-white border-2 border-blue-200 rounded-2xl p-4 sm:p-8 flex flex-col justify-between shadow-md"
             style="backface-visibility: hidden;"
           >
             <div>
@@ -74,7 +74,7 @@ const cardData = cards.map(c => ({
           </div>
           <!-- Back -->
           <div
-            class="absolute inset-0 bg-white border-2 border-green-200 rounded-2xl p-8 flex flex-col justify-center shadow-md overflow-y-auto"
+            class="absolute inset-0 bg-white border-2 border-green-200 rounded-2xl p-4 sm:p-8 flex flex-col justify-center shadow-md overflow-y-auto"
             style="backface-visibility: hidden; transform: rotateY(180deg);"
           >
             <div class="text-xs uppercase tracking-wider text-green-500 font-semibold mb-3">Antwort</div>

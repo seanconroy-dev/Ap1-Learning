@@ -59,7 +59,7 @@ const answerHtmlFull = mRenderer.parse(apiCard.card?.answer ?? '');
           <span class="text-xs bg-green-100 text-green-700 rounded px-2 py-0.5">{t}</span>
         ))}
       </div>
-      <h1 class="text-3xl font-extrabold text-gray-900">{apiCard.title}</h1>
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-gray-900">{apiCard.title}</h1>
       {apiCard.topics.length > 0 && (
         <div class="flex gap-2 flex-wrap mt-2">
           {apiCard.topics.map((t: unknown) => (
@@ -80,7 +80,7 @@ const answerHtmlFull = mRenderer.parse(apiCard.card?.answer ?? '');
       </div>
       <div id="answer-block" class="hidden px-6 py-5">
         <div class="text-xs uppercase tracking-wider text-green-500 font-semibold mb-2">Antwort</div>
-        <div class="prose prose-sm max-w-none text-gray-700" set:html={answerHtmlFull} />
+        <div class="overflow-x-auto prose prose-sm max-w-none text-gray-700" set:html={answerHtmlFull} />
         {apiCard.card.answerImage && (
           <img src={apiCard.card.answerImage} alt={apiCard.card.answer} class="mt-4 max-h-64 rounded-lg object-contain" />
         )}
@@ -112,7 +112,7 @@ const answerHtmlFull = mRenderer.parse(apiCard.card?.answer ?? '');
         Vollständiger Inhalt
         <span class="text-gray-400 text-sm group-open:rotate-180 transition-transform inline-block">▼</span>
       </summary>
-      <div class="px-6 py-5 prose prose-sm max-w-none border-t border-gray-100" set:html={bodyHtml} />
+      <div class="overflow-x-auto px-6 py-5 prose prose-sm max-w-none border-t border-gray-100" set:html={bodyHtml} />
     </details>
   </div>
 </Base>
