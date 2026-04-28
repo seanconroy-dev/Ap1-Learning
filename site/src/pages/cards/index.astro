@@ -21,13 +21,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           id="search"
           type="search"
           placeholder="Suche nach Titel oder Frage…"
-          class="flex-1 min-w-48 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="w-full sm:flex-1 sm:min-w-48 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
-        <select id="filter-module" class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select id="filter-module" class="flex-1 sm:flex-none border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="">Alle Module</option>
           {modules.map(m => <option value={m}>{m}</option>)}
         </select>
-        <select id="filter-tag" class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select id="filter-tag" class="flex-1 sm:flex-none border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="">Alle Tags</option>
           {tags.map(t => <option value={t}>{t}</option>)}
         </select>
