@@ -209,7 +209,7 @@ const cardData = cards.map(c => ({
     ratingButtons.classList.add('hidden');
     cardQuestion.textContent = card.question;
     if (card.image) {
-      cardImage.src = `${apiBase}/${card.image}`;
+      cardImage.src = `${apiBase}/api/assets/${card.image.replace(/^assets\//, '')}`;
       cardImage.alt = card.question;
       cardImage.classList.remove('hidden');
     } else {
@@ -218,7 +218,7 @@ const cardData = cards.map(c => ({
     }
     cardAnswer.innerHTML = renderMd(card.answer);
     if (card.answerImage) {
-      cardAnswerImage.src = `${apiBase}/${card.answerImage}`;
+      cardAnswerImage.src = `${apiBase}/api/assets/${card.answerImage.replace(/^assets\//, '')}`;
       cardAnswerImage.alt = card.answer;
       cardAnswerImage.classList.remove('hidden');
     } else {
