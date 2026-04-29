@@ -1,10 +1,6 @@
-# FIAE-Exam-Part-1-Learning
+# FIAE-Exam-Part-1-Learning (Frontend)
 
-Learning materials and resources for preparing for the **AP1 exam (IT professions)**.
-
-Structured learning cards  
-Flashcard-based learning  
-Exam-focused content
+Interactive learning platform for preparing for the **AP1 exam (IT professions)**.
 
 **Live Website:** https://seanconroy-dev.github.io/FIAE-Exam-Part-1-Learning
 
@@ -20,23 +16,42 @@ Exam-focused content
 
 ---
 
-# Folder Structure
+## Architecture (current)
 
-| Folder | Description |
-|--------|--------------|
-| [Plannen,Vorbereiten und Durchführen von Arbeitsaufgaben](./Plannen,Vorbereiten%20und%20Durchführen%20von%20Arbeitsaufgaben/) | Planning and execution of IT tasks |
-| [Informieren und Beraten von Kunden und Kundinnen](./Informieren%20und%20Beraten%20von%20Kunden%20und%20Kundinnen/) | Customer communication and consulting |
-| [Beurteilen marktgängiger IT-Systeme und Lösungen](./Beurteilen%20marktgängiger%20IT-Systeme%20und%20Lösungen/) | Analysis and evaluation of IT systems |
-| [Entwickeln, Erstellen und Betreuen von IT_Lösungen](./Entwickeln,%20Erstellen%20und%20Betreuen%20von%20IT_Lösungen/) | Development and maintenance of IT solutions |
-| [Qualitätssichernde Maßnahmen](./Qualitätssichernde%20Maßnahmen/) | Quality assurance and management |
-| [IT-Sicherheit und Datenschutz, Ergonomie](./IT-Sicherheit%20und%20Datenschutz,%20Ergonomie/) | IT security, data protection, and ergonomics |
-| [Auftragsabschluss und Leistungenerbringen](./Auftragsabschluss%20und%20Leistungenerbringen/) | Project completion and service delivery |
+This repository contains the **frontend (Astro)**.
+
+Content (Markdown cards + assets) is stored separately and is served to the frontend via a backend API.
+
+- **Frontend (this repo):** `seanconroy-dev/FIAE-Exam-Part-1-Learning`
+- **Content repo:** `seanconroy-dev/FIAE-Exam-Part-1-Content`
+- **Backend API:** configured via `PUBLIC_API_BASE` and consumed at:
+  - `GET /api/cards/markdown`
+
+> Note: The folder structure + frontmatter rules below describe the **content format** expected by the backend/content repo.
 
 ---
 
-# Frontmatter Template
+## Local Development
 
-Each learning card uses a fixed YAML frontmatter.  
+From the `site/` directory:
+
+```bash
+npm install
+npm run dev
+```
+
+Configure the backend base URL:
+
+```bash
+# site/.env
+PUBLIC_API_BASE=https://fiae-exam-part-1-backend-production.up.railway.app
+```
+
+---
+
+## Content Format (Frontmatter + Conventions)
+
+Each learning card uses a fixed YAML frontmatter.
 This schema is stable and must not be changed after publication.
 
 ```yaml
@@ -69,7 +84,7 @@ The actual learning content follows after the frontmatter.
 
 ---
 
-# File Name Convention
+## File Name Convention
 
 Files follow a strict naming pattern:
 
@@ -87,7 +102,7 @@ Rules:
 
 ---
 
-# Note Style Guidelines
+## Note Style Guidelines
 
 The repository has evolved over time.
 
@@ -98,7 +113,7 @@ The repository has evolved over time.
 
 ---
 
-# Structure of New Notes
+## Structure of New Notes
 
 New notes should follow this structure:
 
@@ -118,7 +133,7 @@ This structure supports:
 
 ---
 
-# Flashcard Rules
+## Flashcard Rules
 
 The flashcard in the frontmatter is used for **active recall (e.g., Anki)**.
 
@@ -135,7 +150,7 @@ Goal:
 
 ---
 
-# Style Guidelines
+## Style Guidelines
 
 When writing new notes:
 
