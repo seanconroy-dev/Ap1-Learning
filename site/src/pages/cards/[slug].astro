@@ -19,6 +19,7 @@ if (!apiCard) {
 }
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const apiBase = import.meta.env.PUBLIC_API_BASE;
 
 
 
@@ -63,14 +64,14 @@ const answerHtmlFull = apiCard.card?.answer;
         <div class="text-xs uppercase tracking-wider text-blue-400 font-semibold mb-1">Frage</div>
         <div class="text-lg font-semibold text-gray-800">{apiCard.card.question}</div>
         {apiCard.card.image && (
-          <img src={`${base}/${apiCard.card.image}`} alt={apiCard.card.question} class="mt-4 max-h-64 rounded-lg object-contain" />
+          <img src={`${apiBase}/${apiCard.card.image}`} alt={apiCard.card.question} class="mt-4 max-h-64 rounded-lg object-contain" />
         )}
       </div>
       <div id="answer-block" class="hidden px-6 py-5">
         <div class="text-xs uppercase tracking-wider text-green-500 font-semibold mb-2">Antwort</div>
         <div class="overflow-x-auto prose prose-sm max-w-none text-gray-700" set:html={answerHtmlFull} />
         {apiCard.card.answerImage && (
-          <img src={`${base}/${apiCard.card.answerImage}`} alt={apiCard.card.answer} class="mt-4 max-h-64 rounded-lg object-contain" />
+          <img src={`${apiBase}/${apiCard.card.answerImage}`} alt={apiCard.card.answer} class="mt-4 max-h-64 rounded-lg object-contain" />
         )}
         {apiCard.card.examples && apiCard.card.examples.length > 0 && (
           <div class="mt-4 bg-gray-50 rounded-lg p-4">
