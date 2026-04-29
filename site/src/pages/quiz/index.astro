@@ -5,6 +5,7 @@ import { getAllCards, getAllModules } from '../../lib/cards';
 const cards = await getAllCards();
 const modules = await getAllModules();
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const apiBase = import.meta.env.PUBLIC_API_BASE;
 
 // Pass card data to client-side JS
 const cardData = cards.map(c => ({
@@ -121,7 +122,7 @@ const cardData = cards.map(c => ({
   </div>
 </Base>
 
-<script define:vars={{ cardData, base }}>
+<script define:vars={{ cardData, base, apiBase }}>
   // Simple markdown bold/italic renderer for answer text
   function renderMd(text) {
     return text
@@ -208,7 +209,7 @@ const cardData = cards.map(c => ({
     ratingButtons.classList.add('hidden');
     cardQuestion.textContent = card.question;
     if (card.image) {
-      cardImage.src = `${base}/${card.image}`;
+      cardImage.src = `${apiBase}/${card.image}`;
       cardImage.alt = card.question;
       cardImage.classList.remove('hidden');
     } else {
@@ -217,7 +218,7 @@ const cardData = cards.map(c => ({
     }
     cardAnswer.innerHTML = renderMd(card.answer);
     if (card.answerImage) {
-      cardAnswerImage.src = `${base}/${card.answerImage}`;
+      cardAnswerImage.src = `${apiBase}/${card.answerImage}`;
       cardAnswerImage.alt = card.answer;
       cardAnswerImage.classList.remove('hidden');
     } else {
