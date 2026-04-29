@@ -64,14 +64,14 @@ const answerHtmlFull = apiCard.card?.answer;
         <div class="text-xs uppercase tracking-wider text-blue-400 font-semibold mb-1">Frage</div>
         <div class="text-lg font-semibold text-gray-800">{apiCard.card.question}</div>
         {apiCard.card.image && (
-          <img src={`${apiBase}/api/assets/${apiCard.card.image.replace(/^assets\//, '')}`} alt={apiCard.card.question} class="mt-4 max-h-64 rounded-lg object-contain" />
+          <img src={apiCard.card.image.startsWith('http') ? apiCard.card.image : `${apiBase}/api/assets/${apiCard.card.image.replace(/^assets\//, '')}`} alt={apiCard.card.question} class="mt-4 max-h-64 rounded-lg object-contain" />
         )}
       </div>
       <div id="answer-block" class="hidden px-6 py-5">
         <div class="text-xs uppercase tracking-wider text-green-500 font-semibold mb-2">Antwort</div>
         <div class="overflow-x-auto prose prose-sm max-w-none text-gray-700" set:html={answerHtmlFull} />
         {apiCard.card.answerImage && (
-          <img src={`${apiBase}/api/assets/${apiCard.card.answerImage.replace(/^assets\//, '')}`} alt={apiCard.card.answer} class="mt-4 max-h-64 rounded-lg object-contain" />
+          <img src={apiCard.card.answerImage.startsWith('http') ? apiCard.card.answerImage : `${apiBase}/api/assets/${apiCard.card.answerImage.replace(/^assets\//, '')}`} alt={apiCard.card.answer} class="mt-4 max-h-64 rounded-lg object-contain" />
         )}
         {apiCard.card.examples && apiCard.card.examples.length > 0 && (
           <div class="mt-4 bg-gray-50 rounded-lg p-4">
